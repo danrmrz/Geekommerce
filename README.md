@@ -1,1 +1,1 @@
-# Geekommerce
+Proyecto e-Commerce Platzi

@@ -1,15 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
+import React from 'react';
+import iconProfile from '../assets/static/icon-profile.png';
+import iconCart from '../assets/static/icon-cart.png';
+import '../assets/styles/components/Header.scss'
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="css/styles.css">
-  <title>Header</title>
-</head>
-
-<body>
+const Header = () => (
   <header class="header">
     <img src="" alt="logotipo" class="header__img" />
     <div class="header__search">
@@ -18,7 +12,7 @@
     <section>
       <div class="header__menu">
         <div class="header__menu--acount">
-          <img src="./images/icon-profile.png" alt="imagen usuario" />
+          <img src={iconProfile} alt="imagen usuario" />
         </div>
         <ul>
           <li>
@@ -34,10 +28,10 @@
         </ul>
       </div>
       <div class="header__cart">
-        <img src="./images/icon-cart.png" alt="carrito de compras" />
+        <img src={iconCart} alt="carrito de compras" />
       </div>
     </section>
   </header>
-</body>
+);
 
-</html>
+export default Header;
