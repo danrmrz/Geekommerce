@@ -4,14 +4,14 @@ import iconCart from '../assets/static/icon-cart.png';
 import '../assets/styles/components/Header.scss'
 
 const Header = () => (
-  <header class="header">
-    <img src="" alt="logotipo" class="header__img" />
-    <div class="header__search">
+  <header className="header">
+    <img src="" alt="logotipo" className="header__img" />
+    <div className="header__search">
       <input type="text" name="" id="" placeholder="Buscar" />
     </div>
     <section>
-      <div class="header__menu">
-        <div class="header__menu--acount">
+      <div className="header__menu">
+        <div className="header__menu--acount">
           <img src={iconProfile} alt="imagen usuario" />
         </div>
         <ul>
@@ -27,7 +27,7 @@ const Header = () => (
           </li>
         </ul>
       </div>
-      <div class="header__cart">
+      <div className="header__cart">
         <img src={iconCart} alt="carrito de compras" />
       </div>
     </section>
