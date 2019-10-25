@@ -1,5 +1,4 @@
 .footer {
-    margin: 400px 0;
     background-color: #1a6aea;
     padding-left: 20px;
     padding-right: 20px;
@@ -14,10 +13,10 @@
 .footer .enlaces a {
     color: white;
     cursor: pointer;
-    text-decoration: underline;
     margin: 0 30px;
-  }
-  
-  .footer .enlaces a:hover {
     text-decoration: none;
+}
+
+.footer .enlaces a:hover {
+    text-decoration: underline;
   }
