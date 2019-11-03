@@ -1,11 +1,12 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import iconProfile from '../assets/static/icon-profile.png';
 import iconCart from '../assets/static/icon-cart.png';
 import '../assets/styles/components/Header.scss'
 
 const Header = () => (
   <header className="header">
-    <img src="" alt="logotipo" className="header__img" />
+    <Link to='/'><img alt="logotipo" className="header__img" /></Link>
     <div className="header__search">
       <input type="text" name="" id="" placeholder="Buscar" />
     </div>
