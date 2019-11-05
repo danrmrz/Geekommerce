@@ -1,14 +1,16 @@
 import React from 'react';
-import { BrowserRouter, Route } from 'react-router-dom';
+import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import Home from '../containers/Home';
+import NotFoud from '../containers/NotFound';
 import Layout from '../components/Layout';
 
 const App = () => (
   <BrowserRouter>
     <Layout>
-      <switch>
-        <Route exact path="/" component={Home} />
-      </switch>
+      <Switch>
+        <Route exact path='/' component={Home} />
+        <Route component={NotFoud} />
+      </Switch>
     </Layout>
   </BrowserRouter>
 );
