@@ -1,9 +1,19 @@
-import React from 'react';
-
-import '../assets/styles/App.scss'
+import React from "react";
+import Categories from "../components/Categories";
+import Carousel from "../components/Carousel";
+import CarouselItem from '../components/CarouselItem';
+import "../assets/styles/App.scss";
 
 const Home = () => (
-  <div>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque corrupti dolore totam velit amet placeat natus quos maxime, tempore consequuntur modi, porro qui libero veritatis laborum a. Minima, nostrum rerum.</div>
+    <div className="Home">
+        <Categories title="Lo más nuevo">
+            <Carousel>
+              <CarouselItem />
+              <CarouselItem />
+              <CarouselItem />
+            </Carousel>
+        </Categories>
+    </div>
 );
 
 export default Home;
