@@ -1,9 +1,14 @@
 import React from 'react';
-
+import Hero from '../components/Hero';
+import HeroItem from '../components/HeroItem';
 import '../assets/styles/App.scss'
 
 const Home = () => (
-  <div>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque corrupti dolore totam velit amet placeat natus quos maxime, tempore consequuntur modi, porro qui libero veritatis laborum a. Minima, nostrum rerum.</div>
+  <>
+    <Hero>
+      <HeroItem/>
+    </Hero>
+  </>
 );
 
 export default Home;
