@@ -6,8 +6,19 @@ import "../assets/styles/App.scss";
 
 const Home = () => (
     <div className="Home">
-        <Categories title="Lo más nuevo">
+        <Categories title="">
             <Carousel>
+              <CarouselItem />
+              <CarouselItem />
+              <CarouselItem />
+              <CarouselItem />
+              <CarouselItem />
+            </Carousel>
+        </Categories>
+        <Categories title="">
+            <Carousel>
+              <CarouselItem />
+              <CarouselItem />
               <CarouselItem />
               <CarouselItem />
               <CarouselItem />
