@@ -29,9 +29,9 @@ const Header = () => (
             </a>
           </li>
           <li>
-            <a href="">
-              Crear Cuenta
-            </a>
+          <Link to='/register'>
+          Crear Cuenta
+            </Link>
           </li>
         </ul>
       </div>
