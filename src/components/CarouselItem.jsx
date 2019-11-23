@@ -1,11 +1,11 @@
 import React from "react";
 import "../assets/styles/components/CarouselItem.scss";
 
-const CarouselItem = () => (
+const CarouselItem = ({ image, title }) => (
     <div className="carousel-item">
-    <img className="carousel-item__img" src="src\assets\static\tazaLego.JPG" alt=""  />
+    <img className="carousel-item__img" src={image} alt=""  />
     <div className="carousel-item__details">
-      <p className="carousel-item__details--title">Celular</p>
+      <p className="carousel-item__details--title">{title}</p>
       <div>
         <button class="main_btn">
               Añadir al carrito
