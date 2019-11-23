@@ -2,11 +2,18 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import iconProfile from '../assets/static/icon-profile.png';
 import iconCart from '../assets/static/icon-cart.png';
+import logo from '../assets/static/icon-caja.png';
+
 import '../assets/styles/components/Header.scss'
 
 const Header = () => (
   <header className="header">
-    <Link to='/'><img alt="logotipo" className="header__img" /></Link>
+    <Link to='/'>
+      <div className="header__logotipo">
+        <img alt="logotipo" className="header__img" src={logo} />
+        <p>Geekommerce</p>
+      </div>
+    </Link>
     <div className="header__search">
       <input type="text" name="" id="" placeholder="Buscar" />
     </div>

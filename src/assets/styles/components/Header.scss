@@ -6,8 +6,21 @@
   height: 60px;
 }
 
+.header__logotipo {
+  display: flex;
+  flex-direction: row;
+}
+
 .header__img {
   padding: 0 20px;
+  height: 50px;
+}
+
+.header__logotipo p {
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
 }
 
 .header__img:hover {
