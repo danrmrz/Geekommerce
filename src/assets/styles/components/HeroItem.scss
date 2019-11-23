@@ -8,14 +8,23 @@
   overflow: hidden;
   justify-content: space-between;
   align-content: center;
+  margin-top: 15px;
+  margin-bottom: 50px;
 }
 
 .hero-item__arrow {
   position: relative;
+  left: -900px;
+  top: 120px;
   width: 55px;
   height: 55px;
   margin: 0px;
   z-index: 1;
+  margin-right: 790px;
+}
+
+.hero-item__arrow:hover {
+  cursor: pointer;
 }
 
 .hero-item__arrow--iconRight {
@@ -26,4 +35,9 @@
 .hero-item__img {
   width: 100%;
   object-fit: cover;
+}
+
+.item-one {
+  width: 175px;
+  border-radius: 0 10px 10px 0;
 }
